@@ -23,7 +23,6 @@ Master of Data Science, University of British Columbia (2023 - 2024)
 ## [Red-Wine-Quality-Prediction](https://github.com/UBC-MDS/Red-Wine-Quality-Prediction)
 This repository is for a data analysis project on red wine quality prediction using different machine learning model. The project itself is nothing sophisticated as the primary focus was on creating a reproducible analysis report.
 
-**Contributions:**
 - Fine-tuned parameters of different machine learning models for classification (Logistic Regression, SVM RBF, kNN, Decision Tree)
 - Wrote multiple test functions for different functionalities
 - Helped make the report reproducible using jupyter book
