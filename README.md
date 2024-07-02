@@ -57,3 +57,6 @@ My specific contributions were:
 - Cleaned up and aggregated conversation log data set for compatibility with models
 - Engineered features indicating agent response time and frequency for modelling
 - Restructured the repository and modularized python codes from notebooks into scripts for reproducibility
+
+# Social Media
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/hongyang-zhang-1943b916b/)
