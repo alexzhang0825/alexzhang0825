@@ -1,4 +1,4 @@
-# Welcomehttps://github.com/alexzhang0825/alexzhang0825/blob/main/README.md
+# Welcome
 
 My actual name is Hongyang, but you can also call me Alex. I am a data science fresh-graduate.
 
@@ -33,6 +33,7 @@ My actual name is Hongyang, but you can also call me Alex. I am a data science f
 ## Red Wine Quality Prediction
 This repository is for a data analysis project on red wine quality prediction using different machine learning model. The project itself is nothing sophisticated as the primary focus was on creating a reproducible analysis report.
 
+My specific contributions were:
 - Fine-tuned parameters of different machine learning models for classification (Logistic Regression, SVM RBF, kNN, Decision Tree)
 - Wrote multiple test functions for different functionalities
 - Helped make the report reproducible using jupyter book
@@ -43,15 +44,16 @@ This repository is for a data analysis project on red wine quality prediction us
 ## World Happiness Tracker
 This repository is for a visualization dashboard of a world happiness level data. The dashboard is interactive and allows the user to see trends and rankings based on user selections.
 
+My specific contributions were:
 - Developed dash module for a interactive `pandas` table in the dashboard
 - Helped track different changes implemented as reflection
 
 [![GitHub Repository](https://img.shields.io/badge/Repository-Visit-blue)](https://github.com/UBC-MDS/DSCI-532_2024_3_world-happiness-tracker)
 
-## World Happiness Tracker
-This repository is for a visualization dashboard of a world happiness level data. The dashboard is interactive and allows the user to see trends and rankings based on user selections.
+## Sentiment Analysis Model Development (Private repository due to confidentiality)
+This repository is for our capstone project for the MDS program at UBC. We wanted to pave way for an even bigger model that can help determine a potential customer interested in buying a real estate listing as well as recommend different estates based on customer demands. Due to time constraint, we could not do everything. We focused on using fine-tuned and zero-shot models to predict customer interest level (labelled as three levels: cold, warm, and hot) with agent-customer text history as our data set.
 
-- Developed dash module for a interactive `pandas` table in the dashboard
-- Helped track different changes implemented as reflection
-
-[![GitHub Repository](https://img.shields.io/badge/Repository-Visit-blue)](https://github.com/UBC-MDS/DSCI-532_2024_3_world-happiness-tracker)
+My specific contributions were:
+- Cleaned up and aggregated conversation log data set for compatibility with models
+- Engineered features indicating agent response time and frequency for modelling
+- Restructured the repository and modularized python codes from notebooks into scripts for reproducibility
