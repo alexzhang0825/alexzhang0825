@@ -50,7 +50,7 @@ My specific contributions were:
 
 [![GitHub Repository](https://img.shields.io/badge/Repository-Visit-blue)](https://github.com/UBC-MDS/DSCI-532_2024_3_world-happiness-tracker)
 
-## Sentiment Analysis Model Development (Private repository due to confidentiality)
+## Sentiment Analysis Model Development (Private)
 This repository is for our capstone project for the MDS program at UBC. We wanted to pave way for an even bigger model that can help determine a potential customer interested in buying a real estate listing as well as recommend different estates based on customer demands. Due to time constraint, we could not do everything. We focused on using fine-tuned and zero-shot models to predict customer interest level (labelled as three levels: cold, warm, and hot) with agent-customer text history as our data set.
 
 My specific contributions were:
