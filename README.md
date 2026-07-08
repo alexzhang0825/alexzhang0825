@@ -1,6 +1,6 @@
 # Welcome
 
-My actual name is Hongyang, but you can also call me Alex. I am a data science fresh-graduate looking to work in the gaming industry. My main interest is to find ways to integrate machine learning technologies into games on a development level. I have extensive education background in mathematics, statistics, and data science.
+I'm Hongyang, a machine learning engineer based in Vancouver focused on building production-grade AI systems — RAG pipelines, LLM agents, and NLP applications that hold up outside a demo. Background in mathematics, statistics, and data science (UW, Haifa, UBC MDS).
 
 # Education
 
