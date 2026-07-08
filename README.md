@@ -1,9 +1,7 @@
 # Welcome
-
 I'm Hongyang, a machine learning engineer based in Vancouver focused on building production-grade AI systems — RAG pipelines, LLM agents, and NLP applications that hold up outside a demo. Background in mathematics, statistics, and data science (UW, Haifa, UBC MDS).
 
 # Education
-
 **Bachelor of Arts in Mathematics**  
 *University of Washington*  
 *2016 - 2020*  
@@ -30,6 +28,37 @@ I'm Hongyang, a machine learning engineer based in Vancouver focused on building
 
 # Contributions
 
+## Venue Prioritization RAG Pipeline
+Production-grade RAG pipeline that rebuilds a scrappy internship prototype (Make + Airtable + ChatGPT) into a proper agentic system — LangChain, LangGraph, and Pinecone, scoring and ranking venues via a 4-node multi-agent workflow.
+
+My specific contributions were:
+- Built the full LangGraph multi-agent scoring workflow (services, sentiment, products, fit nodes) producing weighted, explainable rankings
+- Ingested 32 real venues via the Google Places API and chunked scraped content into 326 vectors for targeted semantic retrieval
+- Migrated from local FAISS to Pinecone for persistent, environment-agnostic retrieval
+- Added GitHub Actions CI/CD with mocked scraper tests
+
+[![GitHub Repository](https://img.shields.io/badge/Repository-Visit-blue)](https://github.com/alexzhang0825/piko-venue-rag)
+
+## Client Warmth Classification — Production Upgrade
+Revisited a UBC MDS capstone project and identified that the original team had tuned hyperparameters directly on the test set, inflating reported accuracy — corrected the methodology and hardened the pipeline for production.
+
+My specific contributions were:
+- Corrected the evaluation methodology with a stratified 70/15/15 train/val/test split
+- Fine-tuned DistilBERT with weighted CrossEntropyLoss, improving accuracy from 59% to 96.5% and hot-class recall from 33% to 100%
+- Added FastAPI deployment, Docker containerization, MLflow experiment tracking, and SHAP explainability
+
+[![GitHub Repository](https://img.shields.io/badge/Repository-Visit-blue)](https://github.com/alexzhang0825/side-client-warmth)
+
+## Tactical Route Planner
+AI-powered tactical navigation system built in a ~4-5 hour hackathon, dynamically rerouting ground units around threats detected from drone imagery on a real map of Vancouver.
+
+My specific contributions were:
+- Integrated Google Gemini 1.5 Flash Vision API to extract structured threat data from drone images
+- Built a geospatial projection pipeline and live rerouting via OpenStreetMap/osmnx and NetworkX
+- Built the FastAPI backend and React/Mapbox GL JS frontend, with graceful degradation on API failure
+
+[![GitHub Repository](https://img.shields.io/badge/Repository-Visit-blue)](https://github.com/alexzhang0825/tactical-route-planner)
+
 ## Red Wine Quality Prediction
 This repository is for a data analysis project on red wine quality prediction using different machine learning model. The project itself is nothing sophisticated as the primary focus was on creating a reproducible analysis report.
 
@@ -49,14 +78,6 @@ My specific contributions were:
 - Helped track different changes implemented as reflection
 
 [![GitHub Repository](https://img.shields.io/badge/Repository-Visit-blue)](https://github.com/UBC-MDS/DSCI-532_2024_3_world-happiness-tracker)
-
-## Sentiment Analysis Model Development (Private)
-This repository is for our capstone project for the MDS program at UBC. We wanted to pave way for an even bigger model that can help determine a potential customer interested in buying a real estate listing as well as recommend different estates based on customer demands. Due to time constraint, we could not do everything. We focused on using fine-tuned and zero-shot models to predict customer interest level (labelled as three levels: cold, warm, and hot) with agent-customer text history as our data set.
-
-My specific contributions were:
-- Cleaned up and aggregated conversation log data set for compatibility with models
-- Engineered features indicating agent response time and frequency for modelling
-- Restructured the repository and modularized python codes from notebooks into scripts for reproducibility
 
 # Social Media
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/hongyang-zhang-1943b916b/)
